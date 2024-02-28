@@ -22,6 +22,7 @@ class Empleados extends Migration
             $table->string('telefono')->nullable();
             $table->string('pais');
             $table->string('ciudad');
+            $table->integer('delete');
             // Aquí puedes agregar más columnas si es necesario
             $table->timestamps();
         });
